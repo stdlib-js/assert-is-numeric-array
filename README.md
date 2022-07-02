@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isNumericArray;
+})();
 })();
 </script>
 ```
@@ -105,6 +107,7 @@ bool = isNumericArray( [ '1', '2', '3' ] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-numeric-array@umd/browser.js"></script>
 <script type="text/javascript">
+(function () {
 (function () {
 
 var arr = new Int8Array( 10 );
@@ -159,6 +162,7 @@ bool = isNumericArray( null );
 bool = isNumericArray( new Buffer( 10 ) );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -256,11 +260,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert-is-array/tree/umd
+[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert-is-array/tree/umd/tree/umd
 
-[@stdlib/assert/is-number-array]: https://github.com/stdlib-js/assert-is-number-array/tree/umd
+[@stdlib/assert/is-number-array]: https://github.com/stdlib-js/assert-is-number-array/tree/umd/tree/umd
 
-[@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert-is-typed-array/tree/umd
+[@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert-is-typed-array/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
