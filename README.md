@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNumericArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-numeric-array@deno/mod.js';
+import isNumericArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-numeric-array@v0.1.0-deno/mod.js';
 ```
 
 #### isNumericArray( value )
@@ -87,7 +87,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@deno/m
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import isNumericArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-numeric-array@deno/mod.js';
+import isNumericArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-numeric-array@v0.1.0-deno/mod.js';
 
 var arr = new Int8Array( 10 );
 var bool = isNumericArray( arr );
