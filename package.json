@@ -40,7 +40,8 @@
     "@stdlib/assert-is-buffer": "^0.2.2",
     "@stdlib/assert-is-number-array": "^0.2.2",
     "@stdlib/assert-is-typed-array": "^0.2.2",
-    "@stdlib/types": "^0.4.3"
+    "@stdlib/types": "^0.4.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.2",
