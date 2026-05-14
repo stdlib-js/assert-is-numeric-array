@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`795cdc0`](https://github.com/stdlib-js/stdlib/commit/795cdc007997c8a0db301e65e705a9237f5877f6) - **docs:** update related packages sections [(#12122)](https://github.com/stdlib-js/stdlib/pull/12122) _(by stdlib-bot)_
 -   [`342466e`](https://github.com/stdlib-js/stdlib/commit/342466efa3e8837ecd245ff3dd51ef0c40c52ed6) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11399)](https:-/github.com/stdlib-js/stdlib/pull/11399) _(by Karan Anand)_
 
 </details>
