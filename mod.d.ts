@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var isTypedArray = require( '@stdlib/assert-is-typed-array' );
-var isNumberArray = require( '@stdlib/assert-is-number-array' ).primitives;
-var isBuffer = require( '@stdlib/assert-is-buffer' );
-
-
-// MAIN //
+import { NumericArray } from '@stdlib/types/array';
 
 /**
 * Tests if a value is a numeric array.
 *
-* @param {*} v - value to test
-* @returns {boolean} boolean indicating if a value is a numeric array
+* @param v - value to test
+* @returns boolean indicating if a value is a numeric array
 *
 * @example
 * var bool = isNumericArray( new Int8Array( 10 ) );
@@ -43,14 +38,9 @@ var isBuffer = require( '@stdlib/assert-is-buffer' );
 * bool = isNumericArray( [ '1', '2', '3' ] );
 * // returns false
 */
-function isNumericArray( v ) {
-	return (
-		!isBuffer( v ) &&
-		(isTypedArray( v ) || isNumberArray( v ))
-	);
-}
+declare function isNumericArray( v: any ): v is NumericArray;
 
 
 // EXPORTS //
 
-module.exports = isNumericArray;
+export = isNumericArray;
