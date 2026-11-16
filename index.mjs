@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array@v0.2.3-esm/index.mjs";import{primitives as t}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-number-array@v0.2.3-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex-typed-array@v0.2.3-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uint64array@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-int64array@esm/index.mjs";import d from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@v0.2.3-esm/index.mjs";function m(m){return!d(m)&&(s(m)||r(m)||t(m)||e(m)||i(m))}export{m as default};
-//# sourceMappingURL=index.mjs.map
