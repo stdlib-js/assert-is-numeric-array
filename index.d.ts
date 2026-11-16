@@ -16,19 +16,31 @@
 * limitations under the License.
 */
 
-import isNumericArray = require( './index' );
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { NumericArray } from '@stdlib/types/array';
+
+/**
+* Tests if a value is a numeric array.
+*
+* @param v - value to test
+* @returns boolean indicating if a value is a numeric array
+*
+* @example
+* var bool = isNumericArray( new Int8Array( 10 ) );
+* // returns true
+*
+* bool = isNumericArray( [ 1, 2, 3 ] );
+* // returns true
+*
+* bool = isNumericArray( [ '1', '2', '3' ] );
+* // returns false
+*/
+declare function isNumericArray( v: any ): v is NumericArray;
 
 
-// TESTS //
+// EXPORTS //
 
-// The function returns a boolean...
-{
-	isNumericArray( [ 1, 2, 3 ] ); // $ExpectType boolean
-	isNumericArray( [] ); // $ExpectType boolean
-}
-
-// The compiler throws an error if the function is provided an unsupported number of arguments...
-{
-	isNumericArray(); // $ExpectError
-	isNumericArray( [ 1, 2, 3 ], 123 ); // $ExpectError
-}
+export = isNumericArray;
